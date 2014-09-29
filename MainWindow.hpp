@@ -3,6 +3,7 @@
 
 #include <Wt/WContainerWidget>
 #include <Wt/WString>
+#include <string>
 
 namespace Wt {
 class WLineEdit;
@@ -11,19 +12,17 @@ class WLabel;
 class WButton;
 }
 
+class FileUpdaterTools;
+
 class MainWindow : public Wt::WContainerWidget {
 private:
-     Wt::WLabel* _inputLabel;
-     Wt::WLineEdit* _nameInput;
-     Wt::WText* _nameOutput;
-     Wt::WPushButton* _btnHi;
-     Wt::WString _lastNameEntered;
+     Wt::WLabel* _title;
+     Wt::WContainerWidget* _body;
+     FileUpdaterTools* _fileUpdaterTools;
      void sayHi();
+     void pathChanged(const std::string& newPath);
 public:
      MainWindow(Wt::WContainerWidget* parent=0);
-     const Wt::WString& getLastName() {
-          return _lastNameEntered;
-     }
 };
 
 #endif // MAINWINDOW_HPP

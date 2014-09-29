@@ -14,7 +14,7 @@ find_library(wt wt)
 find_library(wthttp wthttp)
 
 # This tells cmake that we want to create an executable called 'hello' and the source files are just 'main.cpp'
-add_executable(emmaus main.cpp MainWindow.cpp)
+add_executable(emmaus main.cpp MainWindow.cpp FileUpdaterTools.cpp)
 target_link_libraries(emmaus
                       ${Boost_SYSTEM_LIBRARY} ${Boost_THREAD_LIBRARY} ${Boost_SIGNALS_LIBRARY}
                       ${wt} ${wthttp})
