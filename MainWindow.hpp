@@ -17,6 +17,7 @@ class FileUpdaterTools;
 class MainWindow : public Wt::WContainerWidget {
 private:
      Wt::WLabel* _title;
+     Wt::WLabel* _about;
      Wt::WContainerWidget* _body;
      FileUpdaterTools* _fileUpdaterTools;
      void sayHi();
