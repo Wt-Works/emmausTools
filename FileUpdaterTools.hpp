@@ -6,9 +6,9 @@
 
 class FileUpdaterTools : public Wt::WContainerWidget {
 private:
-    Wt::WContainerWidget* body;
-    Wt::WFileUpload* uploader;
-    void fileUploaded();
+     Wt::WContainerWidget* body;
+     Wt::WFileUpload* uploader;
+     void fileUploaded();
 public:
      FileUpdaterTools(Wt::WContainerWidget* parent=0);
 };
