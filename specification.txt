@@ -2,6 +2,8 @@
          10        20        30        40        50        60        70        80        90        100
 VVVVVJJYYYYMMDDYYYYMMDDWWWWWWWWWWWWAAAAAAAAAAALLLLLLLLLLLLLLLLLLLLLLLLL$$$$$$$$$$$$$DXXXXXXXXXXXXBBBBBB
 
+<NUMOPERATION=5><JOURNAL=2><DATEAAAA><DATEMM><DATEJJ><DATEAAAA><DATEMM><DATEJJ><NUMPIECE=12><CODECOMPTABLE=11><LIBELLECOMPTABLE=25><MONTANT=13><DEBITOUCREDIT=1><POINTAGE=12><analytique=6>      
+
 # Col 1:
  > 5 Characters
  > movement number
@@ -39,8 +41,10 @@ VVVVVJJYYYYMMDDYYYYMMDDWWWWWWWWWWWWAAAAAAAAAAALLLLLLLLLLLLLLLLLLLLLLLLL$$$$$$$$$
  > L
 
 # Col 8:
- > 13 numeerical including 2 decimals
+ > 13 numerical including 2 decimals
  > Amount
+ > Delimiter is '.'
+ > eg. 123.00
  > $
 
 # Col 9:
